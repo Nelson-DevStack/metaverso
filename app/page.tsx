@@ -17,8 +17,7 @@ import {
 
 export default function Home() {
   return (
-    <main>
-      <h1>Metaversus</h1>
+    <main className="bg-primary-black overflow-hidden">
       <Navbar />
       <Hero />
       <About />
