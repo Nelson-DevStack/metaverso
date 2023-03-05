@@ -112,7 +112,8 @@
             "error",
             {
                 "singleQuote":true,
-                "semi":true
+                "semi":true,
+                "useTabs": false
             }
         ],
         "react/jsx-filename-extension":[
