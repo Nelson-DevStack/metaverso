@@ -16,13 +16,10 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Pessoas no mundo" textStyles="text-center" />
       <TitleText
         title={
-          <>
-            Track friends around you and invite them to play together in the
-            same world
-          </>
+          <>Encontre amigos e convide-os para jogar juntos no mesmo mundo</>
         }
         textStyles="text-center"
       />

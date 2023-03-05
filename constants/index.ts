@@ -27,23 +27,27 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  // 'Find a world that suits you and you want to enter',
+  // 'Enter the world by reading basmalah to be safe',
+  // 'No need to beat around the bush, just stay on the gas and have fun',
+  'Encontre um mundo que você goste e deseja entrar',
+  'Entre no mundo usando o Óculos VR',
+  'Comece a explorar o Metaverso e divirta-se',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Novas Realidades',
     subtitle:
-      'we have the latest update with new world for you to try never mind',
+      // 'we have the latest update with new world for you to try never mind',
+      'Explore novas realidades com nossos sistemas e tecnologias avançados',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Gráficos Realistas',
     subtitle:
-      'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'Viva aventuras virtuais, se entretendo ou até trabalhando em lugares diferentes, mas sem sair de casa',
   },
 ];
 
