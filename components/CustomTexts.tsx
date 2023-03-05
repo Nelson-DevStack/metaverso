@@ -1,12 +1,12 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import React from 'react';
+import React, { ReactElement } from 'react';
 
 import { textContainer, textVariant2 } from '../utils/motion';
 
 type TextsProps = {
-  title: string;
+  title: string | ReactElement;
   textStyles: string;
 };
 

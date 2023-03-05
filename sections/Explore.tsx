@@ -9,7 +9,7 @@ import styles from '../styles';
 import { staggerContainer } from '../utils/motion';
 
 const Explore = () => {
-  const [active, setActive] = useState('world-2');
+  const [active, setActive] = useState<string>('world-2');
   return (
     <section className={`${styles.paddings}`} id="explore">
       <motion.div
@@ -31,13 +31,15 @@ const Explore = () => {
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
-            <ExploreCard
-              key={world.id}
-              {...world}
-              index={index}
-              active={active}
-              handleClick={setActive}
-            />
+            <>
+              <ExploreCard
+                key={world.id}
+                {...world}
+                index={index}
+                active={active}
+                handleClick={setActive}
+              />
+            </>
           ))}
         </div>
       </motion.div>

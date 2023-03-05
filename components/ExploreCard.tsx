@@ -7,12 +7,12 @@ import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
 type ExploreCardType = {
-  id: number;
+  id: string;
   imgUrl: string;
   title: string;
   index: number;
-  active: number;
-  handleClick: (id: number) => void;
+  active: string;
+  handleClick: (id: string) => void;
 };
 
 const ExploreCard = ({
