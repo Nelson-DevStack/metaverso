@@ -1,3 +1,5 @@
+/* eslint-disable object-curly-newline */
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -12,9 +14,7 @@ type CardType = {
   index: number;
 };
 
-const InsightCard = ({
- imgUrl, title, subtitle, index
-}: CardType) => (
+const InsightCard = ({ imgUrl, title, subtitle, index }: CardType) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
     className="flex md:flex-row flex-col gap-4"
