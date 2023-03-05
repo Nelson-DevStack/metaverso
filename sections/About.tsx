@@ -17,13 +17,13 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metarvesus" textStyles="text-center" />
+      <TypingText title="| Sobre os Metaversos" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
+        {/* <span className="font-extrabold text-white">Metaverse</span> is a new
         thing in the future, where you can enjoy the virtual world by feeling
         like it&apos;s really real, you can feel what you feel in this metaverse
         world, because this is really the{' '}
@@ -35,7 +35,31 @@ const About = () => (
         easily explore the metaverse world you want, turn your dreams into
         reality. Let&apos;s{' '}
         <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down.
+        of the metaverse by scrolling down. */}
+        Você já ouviu falar do Metaverso? É um{' '}
+        <span className="font-extrabold text-white">universo virtual</span> que
+        pode mudar completamente a forma como interagimos com o mundo. Imagine
+        poder{' '}
+        <span className="font-extrabold text-white">
+          explorar novos lugares
+        </span>
+        , conhecer pessoas de todas as partes do mundo, e viver experiências
+        incríveis, tudo sem sair de casa.
+      </motion.p>
+      <motion.p
+        variants={fadeIn('up', 'tween', 0.2, 1)}
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+      >
+        O Metaverso é uma nova forma de{' '}
+        <span className="font-extrabold text-white">socialização</span> e de se
+        conectar com pessoas, além de oferecer novas oportunidades de{' '}
+        <span className="font-extrabold text-white">
+          trabalho e entretenimento
+        </span>
+        . Se você quer fazer parte dessa revolução, é hora de adquirir seus{' '}
+        <span className="font-extrabold text-white">Óculos VR</span> e começar a
+        explorar o Metaverso. <br /> Role para baixo e descubra como entrar no
+        Metaverso e experimentar tudo o que ele tem a oferecer.
       </motion.p>
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
