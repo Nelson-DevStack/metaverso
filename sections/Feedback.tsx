@@ -25,13 +25,13 @@ const Feedback = () => (
             Julie
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leaading-[16px] text-white">
-            Founder | Metaversus
+            Fundadora | Metaversus
           </p>
 
           <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-            &ldquo;With the development of today&apos;s technology, metaverse is
-            very useful for today&apos;s work, or can be called Web3.0. by using
-            Metaverse you can use it as anything&rdquo;
+            Com o desenvolvimento da tecnologia atual, o metaverso é muito útil
+            para o trabalho atual, ou pode ser chamado de Web3.0. Você pode usar
+            o Metaverso como quiser.
           </p>
         </div>
       </motion.div>
