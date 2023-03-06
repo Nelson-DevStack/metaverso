@@ -1,27 +1,27 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/planet-01.jpeg',
     title: 'Hogwarts',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/planet-02.jpeg',
     title: 'O Mundo Invertido',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/planet-03.jpeg',
     title: 'Kadirojo Permai',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/planet-04.jpeg',
     title: 'Ilha Paradisíaca',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
+    imgUrl: '/planet-05.jpeg',
     title: 'Laboratório de Hawkins',
   },
 ];
@@ -53,19 +53,19 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: '/planet-06.jpeg',
     title: 'Confira os cantores famosos que já participam do Metaverso',
     subtitle:
       'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
   {
-    imgUrl: '/planet-07.png',
+    imgUrl: '/planet-07.jpeg',
     title: '7 dicas para aproveitar o máximo do Metaversus',
     subtitle:
       'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/planet-08.jpeg',
     title:
       'Com uma única plataforma, você pode explorar o mundo inteiro virtualmente',
     subtitle:
