@@ -5,12 +5,17 @@ import React, { ReactElement } from 'react';
 
 import { textContainer, textVariant2 } from '../utils/motion';
 
-type TextsProps = {
-  title: string | ReactElement;
+type TypingTextProps = {
+  title: string;
   textStyles?: string;
 };
 
-export const TypingText = ({ title, textStyles }: TextsProps) => (
+type TitleTextProps = {
+  title: string | ReactElement;
+  textStyles?: string;
+}
+
+export const TypingText = ({ title, textStyles }: TypingTextProps) => (
   <motion.p
     variants={textContainer}
     className={`font-normal text-[14px] text-secondary-white ${textStyles}`}
@@ -23,7 +28,7 @@ export const TypingText = ({ title, textStyles }: TextsProps) => (
   </motion.p>
 );
 
-export const TitleText = ({ title, textStyles }: TextsProps) => (
+export const TitleText = ({ title, textStyles }: TitleTextProps) => (
   <motion.h2
     variants={textVariant2}
     initial="hidden"
