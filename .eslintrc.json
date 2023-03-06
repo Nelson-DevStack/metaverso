@@ -37,6 +37,7 @@
         //     "error",
         //     "tab"
         // ],
+        "@next/next/no-html-link-for-pages": ["error", "packages/my-app/pages/"],
         "linebreak-style": [
             "error",
             "unix"
