@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Metaversus | Landing Page
 
-## Getting Started
+![GitHub repo size](https://img.shields.io/github/repo-size/Nelson-DevStack/metaverso)
+![GitHub forks](https://img.shields.io/github/forks/Nelson-DevStack/metaverso)
 
-First, run the development server:
+<img src="page_screenshot.png" alt="Screenshot do Metaversus">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+> Essa é uma Landing Page baseada no conceito de Metaverso e Realidade Virtual. Além de conter animações visualmente elegantes, possui um Design Moderno e atraente.
+
+### 📒 Tecnologias Usadas
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS)](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+* Você instalou a versão estável ou a mais recente do `Node.js`
+* Possui o `Git` instalado na sua máquina
+
+## 🚀 Instalando o projeto
+
+Para clonar o projeto em sua máquina, siga estas etapas:
+
+Windows, Linux e macOS:
+```
+git clone https://github.com/Nelson-DevStack/metaverso
+cd metaverso
+yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ☕ Executando o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para executar o projeto no servidor local (localhost:3000), execute o comando:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+yarn run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[⬆ Voltar ao topo](#metaverso)<br>
