@@ -7,6 +7,8 @@ import { NewFeatures, TitleText, TypingText } from '../components';
 import { newFeatures } from '../constants';
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import Image from 'next/image';
+import whatsNewImg from '../assets/whats-new.png'
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -33,8 +35,9 @@ const WhatsNew = () => (
         variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
-          src="/whats-new.png"
+        <Image
+          // src="/whats-new.png"
+          src={whatsNewImg}
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />

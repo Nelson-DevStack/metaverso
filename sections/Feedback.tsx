@@ -5,6 +5,8 @@ import React from 'react';
 
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
+import Image from 'next/image';
+import planet9 from '../assets/planet-09.jpeg'
 
 const Feedback = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -40,10 +42,11 @@ const Feedback = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center items-center"
       >
-        <img
-          src="/planet-09.jpeg"
+        <Image
+          src={planet9}
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          placeholder='blur'
         />
 
         <motion.div

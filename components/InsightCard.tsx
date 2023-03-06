@@ -6,9 +6,10 @@ import { motion } from 'framer-motion';
 import React from 'react';
 
 import { fadeIn } from '../utils/motion';
+import Image, { StaticImageData } from 'next/image';
 
 type CardType = {
-  imgUrl: string;
+  imgUrl: string | StaticImageData;
   title: string;
   subtitle: string;
   index: number;
@@ -19,10 +20,11 @@ const InsightCard = ({ imgUrl, title, subtitle, index }: CardType) => (
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
     className="flex md:flex-row flex-col gap-4"
   >
-    <img
+    <Image
       src={imgUrl}
       alt="planet-01"
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover "
+      placeholder='blur'
     />
     <div className="w-full flex justify-between items-center">
       <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">

@@ -1,27 +1,37 @@
+import planet1 from '../assets/planet-01.jpeg';
+import planet2 from '../assets/planet-02.jpeg';
+import planet3 from '../assets/planet-03.jpeg';
+import planet4 from '../assets/planet-04.jpeg';
+import planet5 from '../assets/planet-05.jpeg';
+import planet6 from '../assets/planet-06.jpeg';
+import planet7 from '../assets/planet-07.jpeg';
+import planet8 from '../assets/planet-08.jpeg';
+
+
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.jpeg',
+    imgUrl: planet1,
     title: 'Hogwarts',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.jpeg',
+    imgUrl: planet2,
     title: 'O Mundo Invertido',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.jpeg',
+    imgUrl: planet3,
     title: 'Kadirojo Permai',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.jpeg',
+    imgUrl: planet4,
     title: 'Ilha Paradisíaca',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.jpeg',
+    imgUrl: planet5,
     title: 'Laboratório de Hawkins',
   },
 ];
@@ -53,19 +63,19 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.jpeg',
+    imgUrl: planet6,
     title: 'Confira os cantores famosos que já participam do Metaverso',
     subtitle:
       'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
   {
-    imgUrl: '/planet-07.jpeg',
+    imgUrl: planet7,
     title: '7 dicas para aproveitar o máximo do Metaversus',
     subtitle:
       'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
-    imgUrl: '/planet-08.jpeg',
+    imgUrl: planet8,
     title:
       'Com uma única plataforma, você pode explorar o mundo inteiro virtualmente',
     subtitle:

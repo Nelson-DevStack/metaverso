@@ -5,10 +5,11 @@ import React from 'react';
 
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
+import Image, { StaticImageData } from 'next/image';
 
 type ExploreCardType = {
   id: string;
-  imgUrl: string;
+  imgUrl: string | StaticImageData;
   title: string;
   index: number;
   active: string;
@@ -30,10 +31,12 @@ const ExploreCard = ({
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.75s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <img
+    <Image
       src={imgUrl}
       alt={title}
       className="absolute w-full h-full object-cover rounded-[24px]"
+      // loading='eager'
+      placeholder='blur'
     />
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
